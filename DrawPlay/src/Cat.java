@@ -3,13 +3,13 @@ import java.awt.*;
 import java.awt.geom.*;
 
 public class Cat {
-	// drawing constants are private - noone needs to know what we're doing
+	// drawing constants are private - none needs to know what we're doing
 	// pick a head dimension
 	private static final int HEAD_DIMENSION = 100;
 	// eyes will be about 1/4 from top of head and 1/4 from left
-	private static final int EYE_Y = HEAD_DIMENSION/3.5;//switch to bigger eyes
-	private static final int EYE_X = HEAD_DIMENSION/3.5;
-	private static final int EYE_SEPARATION = HEAD_DIMENSION/3;
+	private static final int EYE_Y = HEAD_DIMENSION/3;//switch to bigger eyes
+	private static final int EYE_X = HEAD_DIMENSION/3;
+	private static final int EYE_SEPARATION = HEAD_DIMENSION/2;
 	// pick eye dimensions
 	private static final int EYE_HEIGHT = 20;
 	private static final int EYE_WIDTH = 10;
